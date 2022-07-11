@@ -1,10 +1,23 @@
 body {
-    background-color: lightskyblue;
-    text-align: center;
+    background-color: whitesmoke;
 }
 nav {
-    background-color: aliceblue;
     padding: 1rem;
     margin: 1rem;
+}
 
+header {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 2rem;
+    background: linear-gradient(to left, #1d2b64, #f8cdda); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    height: 40px;
+}
+
+.searchbtn {
+    text-align: left;
+    cursor: pointer;
+    width: 10rem;
+    height: 2rem;
 }
